@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutBg from '../../../images/homeBg.svg';
+import AboutBg from '../../../images/homeBg1.svg';
 
 function About() {
   return (
