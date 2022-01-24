@@ -5,6 +5,7 @@ import Header from '../components/HomePage/Header/Header';
 import HomeSection from '../components/HomePage/HomeSection/HomeSection';
 import Features from '../components/HomePage/Features/Features';
 import Footer from '../components/HomePage/Footer/Footer'
+import Contact from '../components/HomePage/Contact/Contact';
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
             <About />
             <DetailsSection />
             <Features />
+            <Contact />
           <Footer />
       </div>
   );
