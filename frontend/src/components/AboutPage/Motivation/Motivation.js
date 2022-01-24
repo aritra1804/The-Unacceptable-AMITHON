@@ -7,9 +7,7 @@ function Motivation() {
     <div className="space-y-8 ">
       <h1 className="font-bold text-[#6F5DE0] text-5xl">We Got Our Motivation From ...</h1>
       <p className="xl:w-[510px] 2xl:w-[550px] text-2xl">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget lorem
-        dolor sed viverra ipsum nunc aliquet.
+      We the team of unacceptables, got our motivation from the constantly evolving security systems and an attempt to make the attendance log systems less cumbersome at an organisational level .Safety being the need of future, we strive to play our own part in it.
       </p>
       {/* <button className="bg-[#6F5DE0] hover:bg-[#6F5DE0] text-white font-bold py-4 px-12 rounded">
         START NOW

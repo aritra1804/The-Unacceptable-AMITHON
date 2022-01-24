@@ -9,11 +9,9 @@ function AboutSection() {
         style={{ backgroundImage: `url(${Homebg})` }}
       ></div>
       <div className="space-y-8 text-center mt-[-500px] xl:ml-[-80px]">
-        <h1 className="font-bold text-[#6F5DE0] text-5xl">We are One</h1>
+        <h1 className="font-bold text-[#6F5DE0] text-5xl">Starx Company</h1>
         <p className="xl:w-[510px] 2xl:w-[550px] text-2xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget lorem
-          dolor sed viverra ipsum nunc aliquet.
+          We provide MEP services with an expertise in Electronic Security and automation. Founded in 2022 at Amithon 1.0 Hackathon. We are dedicated to provide cheap and productive solutions in the field of security for our clients.
         </p>
         <button className="bg-[#6F5DE0] hover:bg-[#6F5DE0] text-white font-bold py-4 px-12 rounded">
           START NOW
