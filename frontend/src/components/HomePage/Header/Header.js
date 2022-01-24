@@ -54,7 +54,7 @@ function Header() {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <Link to="/">
-                  <p className='className="w-52 xs:w-60 md:w-64 self-center  text-[#6F5DE0] font-bold text-lg'>
+                  <p className='className="w-52 xs:w-60 md:w-64 self-center  text-[#6F5DE0] font-bold text-xl'>
                     STARX COMPANY
                   </p>
                 </Link>

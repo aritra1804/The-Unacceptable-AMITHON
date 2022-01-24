@@ -4,6 +4,7 @@ import DetailsSection from '../components/HomePage/DetailsSection/DetailsSection
 import Header from '../components/HomePage/Header/Header';
 import HomeSection from '../components/HomePage/HomeSection/HomeSection';
 import Features from '../components/HomePage/Features/Features';
+import Footer from '../components/HomePage/Footer/Footer'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
             <DetailsSection />
             <Features />
           </main>
+          <Footer />
       </div>
   );
 };
