@@ -11,9 +11,9 @@ function DetailsSection() {
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget lorem
         dolor sed viverra ipsum nunc aliquet.
       </p>
-      <button className="bg-[#6F5DE0] hover:bg-[#6F5DE0] text-white font-bold py-4 px-12 rounded">
+      {/* <button className="bg-[#6F5DE0] hover:bg-[#6F5DE0] text-white font-bold py-4 px-12 rounded">
         START NOW
-      </button>
+      </button> */}
     </div>
     <div>
       <DetailsPic />
