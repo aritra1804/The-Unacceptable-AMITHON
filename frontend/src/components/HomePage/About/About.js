@@ -9,7 +9,7 @@ function About() {
       style={{ backgroundImage: `url(${AboutBg})` }}
     ></div>
     <div className="space-y-6 xl:ml-[-16px] 2xl:ml-[50px] mt-[-80px]">
-      <h1 className="font-bold text-[#6F5DE0] text-3xl">We are One</h1>
+      <h1 className="font-bold text-[#6F5DE0] text-6xl">We are One</h1>
       <p className="w-[680px] text-2xl">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget lorem
