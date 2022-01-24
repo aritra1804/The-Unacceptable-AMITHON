@@ -11,14 +11,14 @@ function DetailsPic() {
         </div>
         <div className="sm:hidden lg:inline-block  xl:w-[360px] xl:h-[360px] 2xl:w-[400px] 2xl:h-[400px] justify-center bg-no-repeat xl:ml-[-110px] 2xl:ml-[-130px] bg-[#6F5DE0] shadow-xl rounded-xl">
           <div className='ml-[-15px]'>
-            <div className='grid grid-rows-2 text-center space-x-5 mt-[50px] '><i className="fab fa-dribbble text-[80px] "></i><div className='space-y-3'><h1 className=' text-3xl font-bold'>Customer Services</h1><p className=' text-md w-[340px]'>We have 24 x 7 Customer Services Support that our users queries will be solved as soon as possible.</p></div></div>
+            <div className='grid grid-rows-2 text-center space-x-5 mt-[50px] '><i className="fas fa-globe-asia text-[80px] "></i><div className='space-y-3'><h1 className=' text-3xl font-bold'>Customer Services</h1><p className=' text-md w-[340px]'>We have 24 x 7 Customer Services Support that our users queries will be solved as soon as possible.</p></div></div>
           </div>
         </div>
       </div>
 
       <div className="xl:mt-[-80px] xl:space-y-8 2xl:space-y-8">
         <div className="sm:hidden lg:inline-block  xl:w-[360px] xl:h-[360px] 2xl:w-[400px] 2xl:h-[400px]   justify-center bg-no-repeat xl:ml-[-20px] 2xl:ml-[-40px] bg-[#6F5DE0] shadow-xl rounded-xl"><div className='ml-[-15px]'>
-            <div className='grid grid-rows-2 text-center space-x-5 mt-[50px] '><i className="fab fa-dribbble text-[80px] "></i><div className='space-y-3'><h1 className=' text-3xl font-bold'>Warranty</h1><p className=' text-md w-[340px]'>We provide 1 year of free servicing after the purchase. We promise that our product is safe to use.</p></div></div>
+            <div className='grid grid-rows-2 text-center space-x-5 mt-[50px] '><i className="fas fa-file text-[80px] "></i><div className='space-y-3'><h1 className=' text-3xl font-bold'>Warranty</h1><p className=' text-md w-[340px]'>We provide 1 year of free servicing after the purchase. We promise that our product is safe to use.</p></div></div>
           </div></div>
         <div className="sm:hidden lg:inline-block  xl:w-[360px] xl:h-[360px] 2xl:w-[400px] 2xl:h-[400px]   justify-center bg-no-repeat xl:ml-[-20px] 2xl:ml-[-40px] bg-[#F6F6F6] shadow-xl rounded-xl">
         <div className='ml-[-15px]'>
