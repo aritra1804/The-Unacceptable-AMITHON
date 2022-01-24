@@ -62,25 +62,25 @@ function Header() {
               <div className='hidden lg:block'>
               <div className='flex items-center space-x-4 '>
                 <a
-                  href="/store"
+                  href="/about"
                   className="text-white text-lg px-3 py-2 font-medium"
                 >
                   About
                 </a> 
                 <a
-                  href="/aboutmawa"
+                  href=""
                   className="text-white text-lg px-3 py-2 font-medium"
                 >
                   Details
                 </a>
                 <a
-                  href="/store"
+                  href=""
                   className="text-white text-lg px-3 py-2 font-medium"
                 >
                   Team
                 </a>
                 <a
-                  href="/store"
+                  href=""
                   className="text-white text-lg px-3 py-2 font-medium"
                 >
                   Features
@@ -164,7 +164,7 @@ function Header() {
             <div className="lg:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
-                  href="/store"
+                  href="/about"
                   className="text-white text-lg px-3 py-2 font-medium "
                 >
                   About
