@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { db } from '../../../firebase';
 import './Contact.css';
 // import Contactbg from '../../../images/footerbg.svg';
 
@@ -7,6 +8,28 @@ function Contact() {
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
+
+  const details = e => {
+    e.preventDefault();
+    db
+        .collection("ContactDetails")
+        .add({
+            name: name,
+            email: email,
+            subject: subject,
+            message: message, 
+        })
+        .then(() => {
+            alert("Your Form Submitted Successfully");
+        })
+        .catch((error) => {
+            alert(error.message);
+        });
+    setName('');
+    setEmail('');
+    setSubject('');
+    setMessage('');
+}
   return (
     <div className="xl:mt-[50px] xl:mb-[90px]">
       <div
@@ -54,7 +77,7 @@ function Contact() {
                   placeholder="Enter Message"
                 />
               </div>
-              <button className="bg-[#6F5DE0] text-white py-6 px-[180px] rounded-lg xl:ml-[-10px] mt-[30px]">
+              <button className="bg-[#6F5DE0] text-white py-6 px-[180px] rounded-lg xl:ml-[-10px] mt-[30px]" onClick={details}>
                 Submit
               </button>
             </div>
