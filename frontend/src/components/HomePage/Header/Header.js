@@ -48,7 +48,7 @@ function Header() {
   };
   return (
       <Fragment>
-          <nav className='overflow-hidden py-2 px-2'>
+          <nav className='overflow-hidden py-4 px-4 ml-[33px]'>
           <div className="xl:max-w-[1350px] 2xl:max-w-[1490px] mx-auto px-4 mt-[5px]">
           <div className="relative flex items-center justify-between h-16">
             <div className="flex items-center">

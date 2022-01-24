@@ -3,6 +3,7 @@ import About from '../components/HomePage/About/About';
 import DetailsSection from '../components/HomePage/DetailsSection/DetailsSection';
 import Header from '../components/HomePage/Header/Header';
 import HomeSection from '../components/HomePage/HomeSection/HomeSection';
+import Features from '../components/HomePage/Features/Features';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
             <HomeSection />
             <About />
             <DetailsSection />
+            <Features />
           </main>
       </div>
   );
