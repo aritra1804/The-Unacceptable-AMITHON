@@ -16,7 +16,7 @@ function HomeSection() {
         </button>
       </div>
       <div
-        className="sm:hidden lg:inline-block lg:w-[800px] lg:h-[750px]  justify-center bg-no-repeat xl:ml-[-300px] 2xl:ml-[-30px]"
+        className="sm:hidden lg:inline-block lg:w-[800px] lg:h-[750px]  justify-center bg-no-repeat xl:ml-[-30px] 2xl:ml-[-30px]"
         style={{ backgroundImage: `url(${Homebg})` }}
       ></div>
     </div>
