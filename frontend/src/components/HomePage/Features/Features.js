@@ -3,7 +3,7 @@ import FeaturesDetails from './FeaturesDetails/FeaturesDetails';
 
 function Features() {
   return (
-    <div className="xl:max-w-[1350px] 2xl:max-w-[1490px] xl:mt-[-5px] 2xl:mt-[15px] mx-auto px-4 grid grid-row-2 lg:grid-rows-2 items-center">
+    <div id='features' className="xl:max-w-[1350px] 2xl:max-w-[1490px] xl:mt-[-5px] 2xl:mt-[15px] mx-auto px-4 grid grid-row-2 lg:grid-rows-2 items-center">
       <div className="space-y-5">
         <h1 className="font-bold text-[#6F5DE0] text-5xl">Features</h1>
         <p className="xl:w-[1350px] 2xl:w-[1420px] text-2xl">

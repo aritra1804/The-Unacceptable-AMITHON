@@ -68,22 +68,22 @@ function Header() {
                   About
                 </a> 
                 <a
-                  href=""
+                  href="#services"
                   className="text-white text-lg px-3 py-2 font-medium"
                 >
-                  Details
+                  Services
                 </a>
                 <a
-                  href=""
-                  className="text-white text-lg px-3 py-2 font-medium"
-                >
-                  Team
-                </a>
-                <a
-                  href=""
+                  href="#features"
                   className="text-white text-lg px-3 py-2 font-medium"
                 >
                   Features
+                </a>
+                <a
+                  href="#team"
+                  className="text-white text-lg px-3 py-2 font-medium"
+                >
+                  Team
                 </a>
               </div>
               </div>

@@ -4,7 +4,7 @@ import TeamMembers from './TeamMembers/TeamMembers';
 
 function Team() {
   return (
-    <div className="xl:max-w-[1350px] 2xl:max-w-[1490px] mt-[130px] mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 items-center">
+    <div id='team' className="xl:max-w-[1350px] 2xl:max-w-[1490px] mt-[130px] mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 items-center">
       <div
         className="sm:hidden lg:inline-block lg:w-[950px] lg:h-[750px]  justify-center bg-no-repeat xl:ml-[-10px] 2xl:ml-[-10px]"
         style={{ backgroundImage: `url(${Teambg})` }}
