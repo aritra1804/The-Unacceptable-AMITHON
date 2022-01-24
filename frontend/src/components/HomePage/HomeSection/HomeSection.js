@@ -3,7 +3,7 @@ import Homebg from '../../../images/homeBg.svg';
 
 function HomeSection() {
   return (
-    <div className="xl:max-w-[1350px] 2xl:max-w-[1490px] mt-6 mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 items-center">
+    <div className="xl:max-w-[1350px] 2xl:max-w-[1490px] 2xl:ml-[35px] mt-6 mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 items-center">
       <div className="space-y-8 ">
         <h1 className="font-bold text-[#6F5DE0] text-5xl">We are One</h1>
         <p className="xl:w-[510px] 2xl:w-[550px] text-2xl">
