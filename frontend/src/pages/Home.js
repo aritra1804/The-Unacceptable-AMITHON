@@ -10,12 +10,10 @@ const Home = () => {
   return (
       <div >
           <Header />
-          <main className="max-w-8xl mx-auto px-8 sm:px-16">
             <HomeSection />
             <About />
             <DetailsSection />
             <Features />
-          </main>
           <Footer />
       </div>
   );
