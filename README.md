@@ -17,7 +17,9 @@ We at Strax company have aimed to create a platform making use of Ai,
 Computer Vision and ML to develop and deploy a model which provides
 real-time surveillance and intruder detection, aligning with a real-time attendance tracker made with
 state-of-the art azure Face Api.
-
+Security is one of the most key concern of people in current world. 
+Advanced surveillance systems are now being used widely for detecting suspicious act in real time.
+We provide our services in the form of Web as well as App, hence information is now handy and readily available.
 <br>
 <br>
 
