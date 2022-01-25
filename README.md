@@ -13,8 +13,8 @@
 
 ## About The Project 
 During the dire times of a Covid Epidemic,biometric logging has proven to be cumbersome and fatal.
-We at Strax company have aimed to create a platform making use of Ai,
-Computer Vision and ML to develop and deploy a model which provides
+We at StarX company have aimed to create a platform making use of Ai,
+Computer Vision and ML to develop Cyclops - a model which provides
 real-time surveillance and intruder detection, aligning with a real-time attendance tracker made with
 state-of-the art azure Face Api.
 Security is one of the most key concern of people in current world. 
