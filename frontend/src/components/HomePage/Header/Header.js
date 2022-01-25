@@ -25,6 +25,15 @@ function Header() {
     },
   });
 
+  const [clicked, setClicked] = useState(false);
+
+  useEffect(() => {
+    if (clicked) {
+      // do something meaningful, Promises, if/else, whatever, and then
+      window.location.assign('https://youtu.be/iXsuXaK0mLc');
+    }
+  });
+
   
 
   const style = {
