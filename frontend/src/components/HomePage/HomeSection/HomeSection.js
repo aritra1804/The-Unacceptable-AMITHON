@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Homebg from '../../../images/homeBg.svg';
 
 function HomeSection() {
+  const [clicked, setClicked] = useState(false);
+
+  useEffect(() => {
+    if (clicked) {
+      // do something meaningful, Promises, if/else, whatever, and then
+      window.location.assign('https://youtu.be/iXsuXaK0mLc');
+    } 
+  });
   return (
     <div className="xl:max-w-[1350px] 2xl:max-w-[1490px] 2xl:ml-[35px] mt-6 mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 items-center">
       <div className="space-y-8 ">
@@ -9,7 +17,7 @@ function HomeSection() {
         <p className="xl:w-[510px] 2xl:w-[550px] text-[22px]">
         During the dire times of a Covid Epidemic,biometric logging has proven to be cumbersome and fatal. <br/>We at StarX company have aimed to create a platform making use of Ai,Computer Vision and ML to develop and deploy a model which provides <br/> real-time surveillance and intruder detection, aligning with a real-time attendance tracker made with <br/>state-of-the art azure Face Api.
         </p>
-        <button className="bg-[#6F5DE0] hover:bg-[#6F5DE0] text-white font-bold py-4 px-12 rounded">
+        <button className="bg-[#6F5DE0] hover:bg-[#6F5DE0] text-white font-bold py-4 px-12 rounded" onClick={() => setClicked(true)}>
           START NOW
         </button>
       </div>

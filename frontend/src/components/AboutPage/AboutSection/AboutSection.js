@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Homebg from '../../../images/aboutus.png'
 
 function AboutSection() {
+  const [clicked, setClicked] = useState(false);
+
+  useEffect(() => {
+    if (clicked) {
+      // do something meaningful, Promises, if/else, whatever, and then
+      window.location.assign('https://youtu.be/iXsuXaK0mLc');
+    } 
+  });
   return (
       <div className="xl:max-w-[1350px] 2xl:max-w-[1490px] 2xl:ml-[35px] mt-6 mx-auto px-4 grid grid-rows-1 lg:grid-rows-1 items-center justify-items-center">
       <div
@@ -13,7 +21,7 @@ function AboutSection() {
         <p className="xl:w-[510px] 2xl:w-[550px] text-2xl">
         Starx can help business to take control of time attendance logging of employees at different sites with vast geographical presence and enable them online across all locations.
         </p>
-        <button className="bg-[#6F5DE0] hover:bg-[#6F5DE0] text-white font-bold py-4 px-12 rounded">
+        <button className="bg-[#6F5DE0] hover:bg-[#6F5DE0] text-white font-bold py-4 px-12 rounded" onClick={() => setClicked(true)}>
           START NOW
         </button>
       </div>
