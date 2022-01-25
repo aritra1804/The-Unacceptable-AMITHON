@@ -2,9 +2,16 @@ import React, { useState, Fragment } from 'react';
 import { createTheme } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
 import { Transition } from '@headlessui/react';
+import FileSaver from 'file-saver';
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
+    const savefile = () => {
+      FileSaver.saveAs(
+        process.env.PUBLIC_URL + "/resources/app-release.apk",
+        "StarxApp.apk"
+      )
+    }
   const theme = createTheme({
     breakpoints: {
       values: {
@@ -17,6 +24,8 @@ function Header() {
       },
     },
   });
+
+  
 
   const style = {
     position: 'fixed',
@@ -46,6 +55,7 @@ function Header() {
       height: '100%',
     },
   };
+  
   return (
       <Fragment>
           <nav className='overflow-hidden py-4 px-4 ml-[20px]'>
@@ -100,7 +110,7 @@ function Header() {
                 <button className='bg-transparent hover:bg-[#6F5DE0] text-white py-3 px-8 rounded-md border-4 border-[#6F5DE0] hover:border-transparent'>
                     Demo
                 </button>
-                <button className='bg-[#6F5DE0] text-white py-3 px-8 rounded-md border-4 border-[#6F5DE0] hover:border-transparent'>
+                <button className='bg-[#6F5DE0] text-white py-3 px-8 rounded-md border-4 border-[#6F5DE0] hover:border-transparent' onClick={savefile}>
                     Download App
                 </button>
               </div>
