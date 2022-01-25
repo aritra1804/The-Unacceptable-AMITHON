@@ -11,7 +11,7 @@
 <br>
 
 
-## Objective 
+## About The Project 
 During the dire times of a Covid Epidemic,biometric logging has proven to be cumbersome and fatal.
 We at Strax company have aimed to create a platform making use of Ai,
 Computer Vision and ML to develop and deploy a model which provides
@@ -23,7 +23,7 @@ state-of-the art azure Face Api.
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Objective
 
 
 
@@ -60,7 +60,11 @@ height="40"></img></a>&nbsp;&nbsp;
 
 
 ## Future Scope
-- 
+- Integration with Smart Cams and iot.
+- Real-Time Geolocation Support.
+- Added User Authority and User Authentication.
+- Improved model accuracy alng with mask-wear detection and logging.
+- Successive support in Low-light conditions with the help of remarkable DL libs.
 <br>
 <br>
 
