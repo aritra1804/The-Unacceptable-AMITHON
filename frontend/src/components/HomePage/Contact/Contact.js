@@ -58,7 +58,7 @@ function Contact() {
                   type="text"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className=""
+                  className="test"
                   placeholder="Enter Full Name"
                 />
                 <input
