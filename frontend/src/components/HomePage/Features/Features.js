@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import FeaturesDetails from './FeaturesDetails/FeaturesDetails';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 function Features() {
+  useEffect(() => {
+    Aos.init({});
+})
   return (
-    <div id='features' className="xl:max-w-[1350px] 2xl:max-w-[1490px] xl:mt-[-5px] 2xl:mt-[15px] mx-auto px-4 grid grid-row-2 lg:grid-rows-2 items-center">
-      <div className="space-y-5">
+    <div id='features' className="xl:max-w-[1350px] 2xl:max-w-[1490px] xl:mt-[-5px] 2xl:mt-[15px] mx-auto px-4 grid grid-row-2 lg:grid-rows-2 items-center" data-aos="fade-up" data-aos-delay="100">
+      <div className="space-y-5" >
         <h1 className="font-bold text-[#6F5DE0] text-5xl">Features</h1>
         <p className="xl:w-[1350px] 2xl:w-[1420px] text-2xl">
           We’ll be suggesting the below four themes or impact areas to help
@@ -14,8 +19,8 @@ function Features() {
           too!
         </p>
       </div>
-      <div className="grid grid-cols-4 mt-[-120px] mb-5">
-        <div className="bg-[#ECB924] xl:w-[320px] xl:h-[580px]  2xl:w-[350px] 2xl:h-[590px] rounded-lg">
+      <div className="grid grid-cols-4 mt-[-120px] mb-5" >
+        <div className="bg-[#ECB924] xl:w-[320px] xl:h-[580px]  2xl:w-[350px] 2xl:h-[590px] rounded-lg" data-aos="fade-up" data-aos-delay="100">
           <div className="max-w-[300px] mx-auto py-8 space-y-8">
             <h1 className="text-white text-3xl">Lorem ipsum</h1>
             <p className="text-white text-2xl">
@@ -24,7 +29,7 @@ function Features() {
             </p>
           </div>
         </div>
-        <div className="bg-[#5A91D1] xl:w-[320px] xl:h-[580px]  2xl:w-[350px] 2xl:h-[590px] rounded-lg">
+        <div className="bg-[#5A91D1] xl:w-[320px] xl:h-[580px]  2xl:w-[350px] 2xl:h-[590px] rounded-lg" data-aos="fade-up" data-aos-delay="90">
           <div className="max-w-[300px] mx-auto py-8 space-y-8">
             <h1 className="text-white text-3xl">Lorem ipsum</h1>
             <p className="text-white text-2xl">
@@ -33,7 +38,7 @@ function Features() {
             </p>
           </div>
         </div>
-        <div className="bg-[#7A9B44] xl:w-[320px] xl:h-[580px]  2xl:w-[350px] 2xl:h-[590px] rounded-lg">
+        <div className="bg-[#7A9B44] xl:w-[320px] xl:h-[580px]  2xl:w-[350px] 2xl:h-[590px] rounded-lg" data-aos="fade-up" data-aos-delay="80">
           <div className="max-w-[300px] mx-auto py-8 space-y-8">
             <h1 className="text-white text-3xl">Lorem ipsum</h1>
             <p className="text-white text-2xl">
@@ -42,7 +47,7 @@ function Features() {
             </p>
           </div>
         </div>
-        <div className="bg-[#6F5DE0] xl:w-[320px] xl:h-[580px]  2xl:w-[350px] 2xl:h-[590px] rounded-lg">
+        <div className="bg-[#6F5DE0] xl:w-[320px] xl:h-[580px]  2xl:w-[350px] 2xl:h-[590px] rounded-lg" data-aos="fade-up" data-aos-delay="70">
           <div className="max-w-[300px] mx-auto py-8 space-y-8">
             <h1 className="text-white text-3xl">Lorem ipsum</h1>
             <p className="text-white text-2xl">

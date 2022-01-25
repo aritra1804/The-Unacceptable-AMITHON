@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../../../firebase';
 import './Contact.css';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 // import Contactbg from '../../../images/footerbg.svg';
 
 function Contact() {
@@ -8,6 +10,10 @@ function Contact() {
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
+
+  useEffect(() => {
+    Aos.init({});
+})
 
   const details = e => {
     e.preventDefault();
@@ -31,7 +37,7 @@ function Contact() {
     setMessage('');
 }
   return (
-    <div className="xl:mt-[50px] xl:mb-[90px]">
+    <div className="xl:mt-[50px] xl:mb-[90px]" data-aos="fade-up" data-aos-delay="100">
       <div
         className="sm:hidden lg:inline-block lg:w-[1440px] 2xl:w-[1519.5px] lg:h-[720px]  justify-center bg-no-repeat xl:ml-[0px] 2xl:ml-[0px]"
         // style={{ backgroundImage: `url(${Contactbg})` }}

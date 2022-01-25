@@ -1,9 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import AboutBg from '../../../images/homeBg1.svg';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 function About() {
+  useEffect(() => {
+    Aos.init({});
+})
   return (
-    <div className="xl:max-w-[1350px] 2xl:max-w-[1490px] mt-[125px] mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 items-center">
+    <div className="xl:max-w-[1350px] 2xl:max-w-[1490px] mt-[125px] mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 items-center" data-aos="fade-up" data-aos-delay="100">
     <div
       className="sm:hidden lg:inline-block lg:w-[950px] lg:h-[750px] justify-center bg-no-repeat ml-[-78px]"
       style={{ backgroundImage: `url(${AboutBg})` }}
