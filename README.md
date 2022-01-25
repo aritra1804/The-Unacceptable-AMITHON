@@ -3,10 +3,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h1 align="center">STARX COMPANY</h1>
+  <img alt="" src="assets/Screenshot 2022-01-25 at 5.41.19 PM.png" height=" x    "  />
   <p align="center">  
   </p>
-  <img alt="" src="assets/Screenshot 2022-01-25 at 5.41.19 PM.png" height=" x    "  />
+  
 </div>
 <br>
 
@@ -24,16 +24,19 @@ state-of-the art azure Face Api.
 
 <!-- ABOUT THE PROJECT -->
 ## Objective
-
-
-
+- Create awarness of Ai/ML in the Field of Security.
+- Improving the productivity of employees by keeping a track of their general activities.
+- Store live activity of individuals in the company vicinity.
 
 <br>
 <br>
 
 ## Novelty of our project
-
-
+Our project is a practical representation of Computer Vision in a real-life problem,it makes a starking attempt to 
+help the companies and individuals in security and personal safety.
+Face recognition is a constantly evolving field of study.Making use of azure Face api we deliver live survelliance and 
+storing of images on azure cloud.
+We also provide you with a web interface with backend support and working App developed with flutter.
 <br>
 <br>
 
@@ -54,17 +57,21 @@ height="40"></img></a>&nbsp;&nbsp;
 
 + Tensorflow  <a href="https://www.tensorflow.org/"><img src="assets/tensorflow.png" width="40"></img></a>&nbsp;&nbsp;
 
++ Azure Face API <a href="https://azure.microsoft.com/en-in/services/cognitive-services/face/"><img src="assets/faceapi.png" width="40"></img></a>&nbsp;&nbsp;
+
 
 <br>
 <br>
 
 
 ## Future Scope
-- Integration with Smart Cams and iot.
+- Integration with Smart Camera and iot.
 - Real-Time Geolocation Support.
 - Added User Authority and User Authentication.
 - Improved model accuracy alng with mask-wear detection and logging.
 - Successive support in Low-light conditions with the help of remarkable DL libs.
+- Attendance System.
+- Timesheet management to easily calculate hours and have all the data about employee work
 <br>
 <br>
 
