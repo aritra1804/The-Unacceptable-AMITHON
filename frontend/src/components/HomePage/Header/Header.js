@@ -55,6 +55,15 @@ function Header() {
       height: '100%',
     },
   };
+
+  const [clicked, setClicked] = useState(false);
+
+  useEffect(() => {
+    if (clicked) {
+      // do something meaningful, Promises, if/else, whatever, and then
+      window.location.assign('https://youtu.be/iXsuXaK0mLc');
+    } 
+  });
   
   return (
       <Fragment>
@@ -65,7 +74,7 @@ function Header() {
               <div className="flex-shrink-0">
                 <Link to="/">
                   <p className='className="w-52 xs:w-60 md:w-64 self-center  text-[#6F5DE0] font-bold text-2xl'>
-                    STARX COMPANY
+                    StarX COMPANY
                   </p>
                 </Link>
               </div>
@@ -107,7 +116,7 @@ function Header() {
                 >
                   Login
                 </a> */}
-                <button className='bg-transparent hover:bg-[#6F5DE0] text-white py-3 px-8 rounded-md border-4 border-[#6F5DE0] hover:border-transparent'>
+                <button className='bg-transparent hover:bg-[#6F5DE0] text-white py-3 px-8 rounded-md border-4 border-[#6F5DE0] hover:border-transparent' onClick={() => setClicked(true)}>
                     Demo
                 </button>
                 <button className='bg-[#6F5DE0] text-white py-3 px-8 rounded-md border-4 border-[#6F5DE0] hover:border-transparent' onClick={savefile}>
