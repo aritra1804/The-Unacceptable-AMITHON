@@ -22,37 +22,33 @@ function Features() {
       <div className="grid grid-cols-4 mt-[-120px] mb-5" >
         <div className="bg-[#ECB924] xl:w-[320px] xl:h-[580px]  2xl:w-[350px] 2xl:h-[590px] rounded-lg" data-aos="fade-up" data-aos-delay="100">
           <div className="max-w-[300px] mx-auto py-8 space-y-8">
-            <h1 className="text-white text-3xl">Lorem ipsum</h1>
+            <h1 className="text-white text-3xl font-bold">Virtual Verification</h1>
             <p className="text-white text-2xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus eu
-              lectus magna aliquet.
+            Without spending money on manpower to validate remote office employee’s presence, random verification is easily done using our product and integrated CV.
             </p>
           </div>
         </div>
         <div className="bg-[#5A91D1] xl:w-[320px] xl:h-[580px]  2xl:w-[350px] 2xl:h-[590px] rounded-lg" data-aos="fade-up" data-aos-delay="90">
           <div className="max-w-[300px] mx-auto py-8 space-y-8">
-            <h1 className="text-white text-3xl">Lorem ipsum</h1>
+            <h1 className="text-white text-3xl font-bold">No fake attendance</h1>
             <p className="text-white text-2xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus eu
-              lectus magna aliquet.
+            Our product Detects face and captures the attendance of a single person from a group of people,and logs the identity and timestamp of a foregin entity.Vastly discouraging the act of proxies.
             </p>
           </div>
         </div>
         <div className="bg-[#7A9B44] xl:w-[320px] xl:h-[580px]  2xl:w-[350px] 2xl:h-[590px] rounded-lg" data-aos="fade-up" data-aos-delay="80">
           <div className="max-w-[300px] mx-auto py-8 space-y-8">
-            <h1 className="text-white text-3xl">Lorem ipsum</h1>
+            <h1 className="text-white text-3xl font-bold w-[500px]">Workflow automation</h1>
             <p className="text-white text-2xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus eu
-              lectus magna aliquet.
+            Instead of using a paper spreadsheet, pen and paper, or a complicated template, you can access all information in one place, and automate processes. Read why you should stop using a time tracking spreadsheet.
             </p>
           </div>
         </div>
         <div className="bg-[#6F5DE0] xl:w-[320px] xl:h-[580px]  2xl:w-[350px] 2xl:h-[590px] rounded-lg" data-aos="fade-up" data-aos-delay="70">
           <div className="max-w-[300px] mx-auto py-8 space-y-8">
-            <h1 className="text-white text-3xl">Lorem ipsum</h1>
+            <h1 className="text-white text-3xl font-bold">Intrusion detection</h1>
             <p className="text-white text-2xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus eu
-              lectus magna aliquet.
+            Our product alerts the authority in control of the organisation,if there is a suspicious activity involved surrounding the premises and office vicinity.
             </p>
           </div>
         </div>

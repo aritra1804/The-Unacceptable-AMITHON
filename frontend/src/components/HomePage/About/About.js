@@ -14,11 +14,9 @@ function About() {
       style={{ backgroundImage: `url(${AboutBg})` }}
     ></div>
     <div className="space-y-6 xl:ml-[-16px] 2xl:ml-[50px] mt-[-80px]">
-      <h1 className="font-bold text-[#6F5DE0] text-6xl">We are One</h1>
+      <h1 className="font-bold text-[#6F5DE0] text-6xl">Your life is under Our Security</h1>
       <p className="w-[680px] text-2xl">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget lorem
-        dolor sed viverra ipsum nunc aliquet.
+      Security is one of the most key concern of people in current world. Advanced surveillance systems are now being used widely for detecting suspicious act in real time.We provide our services in the form of Web as well as App, hence information is now handy and readily available.
       </p>
       {/* <button className="bg-[#6F5DE0] hover:bg-[#6F5DE0] text-white font-bold py-4 px-12 rounded">
         START NOW
