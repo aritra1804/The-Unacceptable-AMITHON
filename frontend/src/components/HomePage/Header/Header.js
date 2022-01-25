@@ -54,13 +54,13 @@ function Header() {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <Link to="/">
-                  <p className='className="w-52 xs:w-60 md:w-64 self-center  text-[#6F5DE0] font-bold text-xl'>
+                  <p className='className="w-52 xs:w-60 md:w-64 self-center  text-[#6F5DE0] font-bold text-2xl'>
                     STARX COMPANY
                   </p>
                 </Link>
               </div>
               <div className='hidden lg:block'>
-              <div className='flex items-center space-x-4 '>
+              <div className='flex items-center space-x-4 xl:ml-[-30px]'>
                 <a
                   href="/about"
                   className="text-white text-lg px-3 py-2 font-medium"
@@ -97,11 +97,11 @@ function Header() {
                 >
                   Login
                 </a> */}
-                <button className='bg-[#6F5DE0] text-white py-3 px-8 rounded-md'>
+                <button className='bg-transparent hover:bg-[#6F5DE0] text-white py-3 px-8 rounded-md border-4 border-[#6F5DE0] hover:border-transparent'>
                     Demo
                 </button>
-                <button className='bg-[#6F5DE0] text-white py-3 px-8 rounded-md'>
-                    Download Apk
+                <button className='bg-[#6F5DE0] text-white py-3 px-8 rounded-md border-4 border-[#6F5DE0] hover:border-transparent'>
+                    Download App
                 </button>
               </div>
             </div>

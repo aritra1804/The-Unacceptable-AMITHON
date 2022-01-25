@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -26,10 +27,10 @@ function Footer() {
         </div>
         <div className="space-y-4 text-lg text-white">
           <h5 className="font-bold">Important Links</h5>
-          <p>About</p>
-          <p>Services</p>
-          <p>Features</p>
-          <p>Team</p>
+          <p><Link to="/about">About</Link></p>
+          <p><a href="#services">Services</a></p>
+          <p><a href="#features">Features</a></p>
+          <p><a href='#team'>Team</a></p>
         </div>
         <p className='w-[380px] mt-[50px]'>© Copyright Starx Company. All Rights Reserved
 Made in Amithon by The Unacceptables</p>
